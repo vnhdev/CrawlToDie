@@ -17,7 +17,6 @@ type JsonCrawlCategories struct {
 		Title       string `json:"title" gorm:"column:title"`
 		HandleTitle string `json:"handle_title" gorm:"column:handle_title"`
 		ProductID   int    `json:"id" gorm:"column:product_id"`
-		Url         string `json:"url" gorm:"column:url"`
 		Gender      string `json:"gender" gorm:"column:gender"`
 	} `json:"list_col"`
 }

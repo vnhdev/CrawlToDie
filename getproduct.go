@@ -11,7 +11,7 @@ import (
 type product struct {
 	Brands      string `json:"brands" gorm:"column:brands"`
 	ProductName string `json:"product_name" gorm:"column:product_name"`
-	ProductLink string `json:"product_link_details" gorm:"column:product_link"`
+	ProductLink string `json:"product_link_details" 	gorm:"column:product_link"`
 }
 
 type categoriesID struct {
