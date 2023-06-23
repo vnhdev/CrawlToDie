@@ -60,7 +60,7 @@ func crawlJSONAndStoreDB(filepath string, db *gorm.DB) error {
 		return err
 	}
 
-	for i := 1; i < len(data); i++ {
+	for i := 0; i < len(data); i++ {
 		data[i].Price /= 100
 		data[i].Pricemin /= 100
 		data[i].Pricemax /= 100
