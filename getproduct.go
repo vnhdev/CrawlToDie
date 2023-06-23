@@ -57,4 +57,5 @@ func main() {
 			c.Visit(url + newUrlID)
 		}
 	}
+	fmt.Println("Get product successful")
 }

@@ -146,6 +146,7 @@ func main() {
 		}
 
 	}
+	fmt.Println("Get product details successful")
 }
 
 // function get connect URL

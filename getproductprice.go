@@ -35,7 +35,7 @@ func main() {
 		fmt.Println("Error while crawling JSON and storing in DB:", err)
 		return
 	}
-	fmt.Println("Data inserted successfully!")
+	fmt.Println("Get product price successful!")
 
 }
 
